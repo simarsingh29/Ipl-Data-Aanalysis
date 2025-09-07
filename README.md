@@ -1,4 +1,7 @@
 # Ipl-Data-Aanalysis
+.
+
+🏏 IPL Data Analysis (2008–2024)
 🚀 Project Highlights
 
 ✅ Covers IPL seasons 2008–2024
@@ -6,6 +9,13 @@
 ✅ Machine Learning Models for score & match predictions
 ✅ In-depth player, team, toss, and head-to-head analytics
 ✅ Deployed on Heroku for live demo
+
+## 📂 Dataset
+This project uses the [Dataset and Cleaned Dataset](https://www.kaggle.com/datasets/simardeepsinghbhatia/ipl-data-analysis-dataset?select=Dataset).  
+
+⚠️ Due to its large size (215 GB), the dataset is **not stored in this repository**.  
+Please download it from Kaggle to run the analysis.
+
 
 📊 Dashboard Features
 🔹 Toss Analysis 🎲
