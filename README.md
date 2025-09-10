@@ -16,55 +16,66 @@ This project uses the [Dataset and Cleaned Dataset](https://www.kaggle.com/datas
 ⚠️ Due to its large size (215 GB), the dataset is **not stored in this repository**.  
 Please download it from Kaggle to run the analysis.
 
-
-📊 Dashboard Features
+📊 Dashboard Features – Detailed Briefing
 🔹 Toss Analysis 🎲
 
-Toss decision trends (Batting vs Fielding)
+Toss plays a crucial role in the outcome of many IPL matches, and this section captures those insights.
 
-Venue-wise toss impact
+Tracks toss decision trends – whether teams prefer batting or fielding first.
 
-Does winning the toss = winning the match?
+Provides venue-specific insights, since some stadiums favor chasing while others suit defending.
+
+Evaluates the relationship between toss and match result – Does winning the toss really increase the chances of winning the match?
 
 🔹 Win Analysis 🏆
 
-Team winning percentages (overall & season-wise)
+Understanding how teams win across seasons helps identify dominant franchises and their strategies.
 
-Venue advantage (home vs away)
+Shows team winning percentages both overall and broken down season-wise.
 
-Most dominant teams in IPL history
+Compares home vs away performances, highlighting teams with strong home advantage.
+
+Identifies the most dominant teams in IPL history, giving fans and analysts a clear view of consistent winners.
 
 🔹 Score Predictions 🎯
 
-ML Model to predict 1st innings scores
+Target-setting is one of the most critical strategies in T20 cricket. This dashboard uses machine learning to predict first-innings scores.
 
-Uses overs, wickets, run rate, teams as input
+Prediction model inputs: overs completed, wickets lost, run rate, and team details.
 
-Helps analyze target-setting strategies
+Helps in forecasting first-innings totals and evaluating if teams are on track for a competitive score.
+
+Provides strategic insights into whether batting teams are setting challenging targets.
 
 🔹 Player Analysis 👨‍💻
 
-Top batsmen (runs, strike rates)
+Star players often define the success of their franchises. This section breaks down batting and bowling performances.
 
-Top bowlers (wickets, economy)
+Top batsmen stats – runs scored, strike rates, boundary percentages.
 
-Consistency metrics across seasons
+Top bowlers stats – wickets taken, economy rates, match-winning spells.
+
+Includes consistency metrics to highlight players who deliver across multiple seasons rather than just one-off performances.
 
 🔹 Team Titles & Dominance 🏅
 
-Who has the most IPL trophies?
+Titles and consistency are what separate good teams from great ones. This feature showcases the long-term dominance of franchises.
 
-Year-wise champions timeline
+Displays the number of trophies each team has won.
 
-Most consistent franchises
+Provides a year-wise champions timeline, giving a historic view of IPL winners.
+
+Highlights the most consistent franchises, based on playoff appearances and sustained performance.
 
 🔹 Batting vs Bowling Analysis ⚔️
 
-Batsman vs Bowler head-to-head stats
+One of the most exciting aspects of cricket is the battle between bat and ball. This feature digs into head-to-head player matchups.
 
-Who dominates whom?
+Batsman vs bowler duels – runs scored, dismissals, and strike rates in specific matchups.
 
-Example: Kohli vs Bumrah → runs, dismissals, strike rate
+Helps uncover who dominates whom in iconic rivalries.
+
+Example: Kohli vs Bumrah → total runs, number of times dismissed, and strike rate against the bowler.
 
 ⚙️ Tech Stack
 
@@ -73,16 +84,6 @@ Example: Kohli vs Bumrah → runs, dismissals, strike rate
 📊 Dashboard: Streamlit
 🤖 ML Models: Random Forest, Logistic Regression
 ☁️ Deployment: Streamlit
-
-🎯 Key Insights
-
-Toss advantage is significant in Mumbai & Chennai
-
-CSK & MI dominate in terms of titles 🏆
-
-Average IPL 1st innings score → 165–175 runs
-
-Bumrah has dismissed Kohli 8 times in IPL history ⚡
 
 📌 Future Improvements
 
