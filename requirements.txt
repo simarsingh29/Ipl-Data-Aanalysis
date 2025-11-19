@@ -1,3 +1,5 @@
-matplotlib
 ploty
 seaborn
+numpy 
+pandas
+matplotlib
